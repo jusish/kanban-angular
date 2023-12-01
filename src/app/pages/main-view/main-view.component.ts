@@ -12,14 +12,10 @@ export class MainViewComponent implements OnInit {
 
   constructor() { }
 
-  board: Board = new Board('Test Board', [
+  board: Board = new Board('Justin Board', [
     new Column('Ideas', [
       "Some random idea",
       "This is another random idea",
-      "build an awesome application",
-      "build an awesome application",
-      "build an awesome application",
-      "build an awesome application",
       "build an awesome application",
     ]),
     new Column('Research', [
